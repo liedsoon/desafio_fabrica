@@ -16,8 +16,7 @@ Virtualenv
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/desafio.git
-cd desafio
+git clone https://github.com/liedsoon/desafio_fabrica.git
 
 Crie e ative um ambiente virtual:
 
