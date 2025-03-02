@@ -1,18 +1,18 @@
-# desafio_fabrica
+# Desafio Fábrica de Software
 
-Este é um projeto Django para avaliação de filmes, permitindo vizualizar detalhes dos filmes, avaliar, etidar e excluir reviews.
+Este é um projeto Django para avaliação de filmes, permitindo vizualizar detalhes dos filmes, avaliar, editar e excluir reviews.
 
-Requisitos
+# Requisitos
 
 Certifique-se de ter os seguintes requisitos instalados:
 
 Python 3.10+
 
-Django 4+
+Django
 
 Virtualenv
 
-Instalação
+# Instalação
 
 Clone o repositório:
 
@@ -31,21 +31,19 @@ pip install -r requirements.txt
 
 Execute as migrações do banco de dados:
 
+python manage.py makemigrations
 python manage.py migrate
 
 Inicie o servidor:
 
 python manage.py runserver
-ython manage.py migrate
 
-O servidor estará rodando em http://127.0.0.1:8000/.
+O servidor estará rodando em http://127.0.0.1:8000/
 
-Tecnologias Utilizadas
+# Rodando o Projeto com Docker
 
-Django - Framework principal
+docker build -t filmescore .
+docker run -p 8000:8000 filmescore
 
-SQLite
 
-Autor
-
-José Liedson da Silva
+Autor : José Liedson da Silva
